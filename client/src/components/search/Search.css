@@ -1,0 +1,58 @@
+@import url('~@fontsource/heebo/300.css');
+@import url('~@fontsource/heebo/400.css');
+
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inputText {
+  flex: 1; 
+  height: 55px;
+  padding: 0 90px 0 5%; 
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Heebo' , sans-serif;
+  font-weight: 400;
+}
+
+.p {
+  color: #707070;
+  font-size: small;
+  margin-left: 2%;
+
+}
+
+.button {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 8px;
+  background-color: #046B3B;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+ text-align: center;
+  font-weight: 300;
+ 
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+input, button {
+  font-family: 'Heebo', sans-serif; 
+}

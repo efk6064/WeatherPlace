@@ -1,0 +1,157 @@
+@import url('~@fontsource/heebo');
+@import url('~@fontsource/heebo/200.css');
+@import url('~@fontsource/heebo/500.css');
+
+
+
+.card-body {
+  width: 560px;
+  height: 550px;
+  background-color: #DDE4E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Heebo', sans-serif;
+}
+
+.card-container {
+  width: 325px;
+  height: 405px;
+  background-color: #27737D;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cityName {
+  font-size: 1.5em;
+  font-family: 'Heebo' 'light', sans-serif;
+  font-weight: 300;
+  color: #E8F1F2;
+}
+
+.country {
+  font-size: 1em;
+  color: #A8C6CB;
+
+}
+
+.date-time {
+  font-size: 1em;
+  margin: 2% 0;
+  color: #A8C6CB;
+}
+
+.temperature {
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: 2%;
+  color: #FFFFFF;
+}
+
+.condition {
+  font-size: 1.5em;
+  margin-bottom: 6%;
+  text-transform: capitalize;
+  color: #E8F1F2;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.details div {
+  text-align: center;
+}
+.in-details{
+  color: #E8F1F2;
+  font-weight: 500;
+
+}
+.t-details{
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.forecast-time{
+  font-size: 1em;
+  color: #A8C6CB; 
+}
+.forecast-temp{
+  color: #FFFFFF; 
+}
+.hourly-forecast {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 0.9em;
+
+}
+
+.hourly-forecast div {
+  text-align: center;
+}
+
+@media(max-width: 1080px) {
+  .card-body {
+    width: 400px;
+    height: 420px;
+    margin-top: 1%;
+  }
+
+  .card-container {
+    width: 230px;
+    height: 260px;
+    padding-top:40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+  }
+
+  .cityName {
+    font-size: 1em;
+  }
+
+  .country {
+    font-size: 1em;
+  }
+
+  .date-time {
+    font-size: 0.7em;
+    margin: 1% 0;
+  }
+
+  .temperature {
+    font-size: 4em;
+  }
+
+  .condition {
+    font-size: 0.8em;
+  }
+
+  .hourly-forecast {
+    font-size: 0.8em;
+  }
+
+}
+
+@media (max-width: 760px) {
+  .card-body {
+    width: 385px;
+    height: 385px;
+    background-color: #DDE4E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
